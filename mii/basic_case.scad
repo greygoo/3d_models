@@ -2,7 +2,7 @@ cutoff = [5,7,5];
 case_height_till_cover = 1.8647;
 
 module case() {
-    import("basic.stl", convexity=0);
+    import("basic_case-template.stl", convexity=0);
 }
 
 
@@ -86,5 +86,5 @@ module top(){
     }
 }
 
-//bottom();
-top();
+bottom();
+//top();
